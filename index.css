@@ -1,0 +1,709 @@
+.customs-container {
+  width: 85%;
+  /* Customize the width as per your requirement */
+  max-width: 1400px;
+  /* Optionally, set a maximum width to avoid excessive expansion on larger screens */
+  margin: auto;
+
+}
+
+.freedom-finance-site p,
+.freedom-finance-site h6,
+.freedom-finance-site li
+ {
+  color: #585858 ;
+}
+
+.main-banner img {
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.banner-content {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+}
+
+
+
+
+.logo {
+  margin: 20px;
+}
+
+.logo-line {
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  letter-spacing: 2.5px;
+}
+
+.line {
+
+  width: 49px;
+  margin: 2px;
+  border-top: 1px solid #fff;
+
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff !important;
+  margin-right: 25px;
+}
+
+/* Style for the toggle button */
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #333;
+}
+
+.headline {
+  margin-top: 100px;
+}
+
+.welcome-heading {
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.outlined-button {
+  position: relative;
+  display: inline-block;
+
+  padding: 10px 20px;
+  border: 1px solid rgb(165, 162, 162);
+  color: white;
+  text-decoration: none;
+}
+
+.outlined-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  transform: translateX(50%);
+  width: 30px;
+  height: 1px;
+  background-color: rgb(165, 162, 162);
+}
+
+.t-shape {
+  position: relative;
+
+
+}
+
+.horizontal-bar {
+  position: absolute;
+  top: 40%;
+  left: -470px;
+  width: 462px;
+  height: 0.5px;
+  background-color: rgb(165, 162, 162);
+  transform: translateY(-50%);
+}
+
+.vertical-bar {
+  position: absolute;
+  top: 10%;
+  right: 8px;
+  width: 0.5px;
+  height: 20px;
+  background-color: rgb(165, 162, 162);
+
+}
+
+.features,
+.our-service {
+  background-color: #f5f5f5;
+}
+
+.features-icons {
+  margin-right: 20px;
+  height: 55px;
+  width: 55px;
+}
+
+.borders {
+  border: none;
+  border-right: 0.5px solid rgb(216, 214, 214);
+  /* Set the color and width of the right border */
+  border-left: 1px solid rgb(216, 214, 214);
+  ;
+  outline: none;
+
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Equal width columns */
+
+}
+
+
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-we-are {
+  padding-left: 80px;
+}
+
+.who-we-are ul {
+  padding-left: 20px;
+}
+
+.black-button {
+  position: relative;
+  display: inline-block;
+
+  padding: 10px 25px;
+
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+
+.black-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  transform: translateX(50%);
+  width: 30px;
+  height: 1px;
+  background-color: rgb(165, 162, 162);
+
+}
+
+.learn-more-button {
+  position: relative;
+  display: inline-block;
+
+  padding-right: 20px;
+
+  color: black;
+  text-decoration: none;
+
+}
+
+.learn-more-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  transform: translateX(50%);
+  width: 20px;
+  height: 1px;
+  background-color: rgb(165, 162, 162);
+
+}
+
+
+.first-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+
+}
+
+
+.first-carousel .owl-prev,
+.first-carousel .owl-next {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white !important;
+  text-align: center;
+  line-height: 36px;
+  font-size: 20px;
+}
+
+.first-carousel .owl-prev:hover,
+.first-carousel .owl-next:hover {
+
+  outline: none;
+}
+
+.first-carousel .owl-prev:focus,
+.first-carousel .owl-next:focus {
+  outline: none;
+}
+
+.ff-carousel-section-first {
+  color: #fff;
+  position: relative;
+}
+
+.background-image-first-carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.ff-carousel-section-first .black-button {
+  background-color: #fff;
+  color: #000;
+}
+
+.ff-carousel-section-first .item,
+.ff-carousel-section-second .item {
+  margin: 0 120px;
+}
+
+.second-carousel,
+.third-carousel {
+  position: relative;
+  /* Set the container to relative positioning */
+}
+
+.second-carousel .owl-prev,
+.second-carousel .owl-next,
+.third-carousel .owl-prev,
+.third-carousel .owl-next {
+  position: absolute;
+  /* Set the buttons to absolute positioning */
+  top: 50%;
+  /* Vertically center the buttons */
+  transform: translateY(-50%);
+  /* Adjust to vertically center */
+  width: 35px;
+  height: 35px;
+  background-color: black !important;
+  border: 1px solid rgb(0, 0, 0) !important;
+  text-align: center;
+  line-height: 36px;
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 0 !important;
+  /* Adjust the value to your desired gap size */
+}
+
+.third-carousel .owl-prev,
+.third-carousel .owl-next {
+
+  background-color: #fff !important;
+
+
+}
+
+.third-carousel [class*=" bi-"]::before {
+
+  color: #000 !important;
+}
+
+.third-carousel .owl-nav button.owl-next,
+.third-carousel .owl-nav button.owl-prev {
+  margin: 5px !important;
+}
+
+.second-carousel .owl-prev,
+.third-carousel .owl-prev {
+  left: -60px;
+  /* Position the left button outside the container */
+}
+
+.second-carousel .owl-next,
+.third-carousel .owl-next {
+  right: -60px;
+  /* Position the right button outside the container */
+}
+
+
+
+
+.second-carousel .owl-prev:hover,
+.second-carousel .owl-next:hover,
+.third-carousel .owl-prev:hover,
+.third-carousel .owl-next:hover {
+
+  outline: none;
+}
+
+.second-carousel .owl-prev:focus,
+.second-carousel .owl-next:focus,
+.third-carousel .owl-prev:focus,
+.third-carousel .owl-next:focus {
+  outline: none;
+}
+
+.second-carousel .item .quotation {
+  height: 350px !important;
+}
+
+/* Position the Owl Carousel dots below the slider */
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.owl-theme .owl-dots {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px !important;
+  height: 10px !important;
+
+  background: #fff !important;
+
+  transition: opacity .2s ease;
+  border-radius: 1px !important;
+  border: 1px solid black;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  position: relative;
+}
+
+/* This style is added to the active dot with JavaScript */
+.owl-theme .owl-dots .owl-dot.active span::before {
+  content: "";
+
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  /* Change this to your desired color */
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.owl-theme .owl-dots .owl-dot.active {
+  outline: none;
+
+}
+
+.owl-theme .owl-dots .owl-dot:focus {
+  outline: none;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: -30px;
+  /* Adjust this value to control the distance from the slider content */
+}
+
+.carousel-arrow {
+  color: white;
+  /* Change to the desired color */
+}
+
+.quotation {
+  position: relative;
+  text-align: center;
+  border: 1px solid black;
+
+
+  z-index: 1;
+}
+
+.quotation img {
+  width: 40px !important;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  /* Adjust this value to overlap the border and center the image */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  /* Ensure the image is above the content */
+}
+
+.quotation .content {
+  max-height: 200px;
+  /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+.small-dashed {
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  letter-spacing: 2.5px;
+}
+
+.dashed-line {
+
+  width: 30px;
+  margin: 2px;
+  border-top: 1.5px solid #000;
+
+}
+
+.item {
+  overflow: hidden;
+}
+
+
+.side-t-shape {
+  position: relative;
+
+
+}
+
+.h-bar {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  width: 40px;
+  height: 0.5px;
+  background-color: rgb(165, 162, 162);
+  transform: translateY(-50%);
+}
+
+.v-bar {
+  position: absolute;
+  top: 10%;
+  right: -40px;
+  width: 0.5px;
+  height: 20px;
+  background-color: rgb(165, 162, 162);
+
+}
+
+.ff-investment-section .investment-content {
+
+  background-color: #f5f5f5;
+}
+
+
+.third-carousel .learn-more-button {
+  font-weight: 600;
+}
+
+.circle-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  /* Center vertically */
+  justify-content: center;
+  /* Center horizontally */
+  border: 1px solid #fff;
+}
+
+.footer-icon {
+  font-size: 15px;
+ 
+}
+
+.custom-divider {
+  height: 1px;
+  /* Set the height of the divider */
+  background-color: rgb(88, 87, 87);
+  /* Set the color of the divider to white */
+  margin: 20px 0;
+  /* Adjust the spacing around the divider */
+}
+
+.title-line {
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  letter-spacing: 2.5px;
+}
+
+.lines {
+
+  width: 49px;
+  margin: 2px;
+  border-top: 1px solid #585858;
+
+}
+
+.textwhite {
+  color: #fff !important;
+}
+
+.outlined-button:hover,
+.learn-more-button:hover {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.black-button:hover {
+  text-decoration: none !important;
+  background-color: #585858;
+  color: #000;
+}
+
+.learn-more-button:hover {
+  text-decoration: none !important;
+  color: #585858;
+}
+.navbar-toggler-icon {
+ 
+  background-color:transparent !important;
+}
+
+@media screen and (min-width: 768px){
+  .footer-section {
+    color:#fff;
+    background: linear-gradient(to right, #000000 29.67%, #070707 0%) !important; /* Half black, half white background */
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer-section {
+    color: #fff;
+    background: linear-gradient(to right, #000000 49.67%, #070707 0%);
+    /* Half black, half white background */
+  }
+
+  .main-banner img {
+    height: 550px !important;
+  }
+
+  .footer-section {
+    color: #fff;
+    background: linear-gradient(to right, #000000 29.67%, #070707 0%) !important;
+    /* Half black, half white background */
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 991.98px) {
+  .footer-section {
+    color: #fff;
+    background: linear-gradient(to right, #000000 29.67%, #070707 0%) !important;
+    /* Half black, half white background */
+  }
+
+  .ff-carousel-section-first .item,
+  .ff-carousel-section-second .item {
+    margin: 0 80px;
+  }
+
+}
+
+@media screen and (max-width:992px) {
+  .owl-dots {
+
+    bottom: 50px;
+  }
+
+  .second-carousel .owl-prev,
+  .third-carousel .owl-prev {
+    left: 0px;
+    /* Position the left button outside the container */
+  }
+
+  .second-carousel .owl-next,
+  .third-carousel .owl-next {
+    right: 0px;
+    /* Position the right button outside the container */
+  }
+
+  .borders {
+    border: 0;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Equal width columns */
+  
+    /* Adjust this gap as needed */
+  }
+
+  .who-we-are {
+    padding-left: 10px;
+  }
+
+  .black-button {
+    padding-left: 7px;
+  }
+
+  .ff-carousel-section-first .item,
+  .ff-carousel-section-second .item {
+    margin: 0 70px;
+    padding: 15px !important;
+  }
+
+  .ff-carousel-section-first .item h2 {
+    font-size: 1.3rem !important;
+  }
+
+  .ff-carousel-section-first .item .button-container a {
+    font-size: 0.7rem !important;
+  }
+}
+
+
+
+@media screen and (min-width: 991.98px) and (max-width:1250px) {
+  
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  
+  }
+
+
+  .second-carousel .owl-prev,
+  .third-carousel .owl-prev {
+    left: -20px;
+    /* Position the left button outside the container */
+  }
+
+  .second-carousel .owl-next,
+  .third-carousel .owl-next {
+    right: -20px;
+    /* Position the right button outside the container */
+  }
+
+}
+@media screen and (min-width: 1600px)  {
+  .headline {
+    margin-top: 150px;
+  }
+}
